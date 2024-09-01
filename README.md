@@ -1,1 +1,3 @@
-# desafioUm
+No exercício 1, foi feito com WITH uma junção de dois processos, foi feito uma soma na coluna Orderquantity na tabela Vendas para que eu tivesse a soma de vendas de cada produto em geral, depois usei um INNER JOIN com a tabela de produtos, para juntar as colunas ProductKey da tabela de vendas e a de produtos e um WHERE com as subcategorias (1,2,3) pois essas categorias estão associadas à categoria 1, fiz o mesmo com a tabela do ano de 2017, e juntei os dois processos com UNION ALL e no fim chamando a união de processos denominada de Top10 vendas colocando uma lista de 10 produtos.
+
+No exercício 2, também houve uma soma da coluna Orderquantity, dessa vez a união de colunas foi baseado nas tabelas, Customers e Vendas, para saber qual dos clientes fez mais pedidos no ano de 2017.
